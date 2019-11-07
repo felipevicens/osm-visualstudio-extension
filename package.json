@@ -1,0 +1,60 @@
+{
+	"name": "opensource-mano-vs-extension",
+	"displayName": "Opensource MANO Visual Studio Code Extension",
+	"description": "OSM Descriptors Autocompletion and Linting extension",
+	"version": "0.0.1",
+	"publisher": "osm",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/felipevicens/osm-visualstudio-extension"
+	},
+	"homepage": "https://github.com/felipevicens/osm-visualstudio-extension/blob/master/README.md",
+	"license": "Apache 2.0",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Linters", "Formatters", "Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+	    "yamlValidation": [
+            {
+                "fileMatch": "*nsd.yaml*",
+                "url": "https://gist.githubusercontent.com/felipevicens/6b418080a69b5522f36fb2a44ac2266a/raw/18a81e8e25c88e8904cb8b96a229f1132db133de/nsd.json"
+            },
+            {
+                "fileMatch": "*vnfd.yaml*",
+                "url": "https://gist.githubusercontent.com/felipevicens/7e5e50f1e031764a0ded88ab7f7864d0/raw/9db1c1a69205fbdff4411001d74b498bcf3b18fd/vnfd.json"
+            },
+            {
+                "fileMatch": "*nst.yaml*",
+                "url": "https://gist.githubusercontent.com/felipevicens/737c31008ffb097c8edc0914593f9905/raw/7177f3a4a65de1d4d4f19cc5d01105d9e1a29a3c/nst.json"
+            }
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.7",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.39.0",
+		"glob": "^7.1.5",
+		"mocha": "^6.2.2",
+		"typescript": "^3.6.4",
+		"tslint": "^5.20.0",
+		"vscode-test": "^1.2.2"
+	},
+	"extensionDependencies": [
+        "redhat.vscode-yaml"
+    ]
+}
