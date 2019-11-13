@@ -3,7 +3,7 @@
 	"displayName": "Opensource MANO Visual Studio Code Extension",
 	"description": "OSM Descriptors Autocompletion and Linting extension",
 	"version": "0.0.1",
-	"publisher": "osm",
+	"publisher": "FelipeVicens",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/felipevicens/osm-visualstudio-extension"

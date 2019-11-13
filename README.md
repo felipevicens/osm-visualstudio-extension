@@ -1,6 +1,4 @@
-# opensource-mano-vs-extension
-
-This is the README for your extension "opensource-mano-vs-extension".
+# Opensource mano visualstudio extension
 
 ## Features
 
