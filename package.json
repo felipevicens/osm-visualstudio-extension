@@ -24,15 +24,15 @@
 	    "yamlValidation": [
             {
                 "fileMatch": "*nsd.yaml*",
-                "url": "https://gist.githubusercontent.com/felipevicens/6b418080a69b5522f36fb2a44ac2266a/raw/18a81e8e25c88e8904cb8b96a229f1132db133de/nsd.json"
+                "url": "http://osm-download.etsi.org/ftp/osm-doc/nsd.json"
             },
             {
                 "fileMatch": "*vnfd.yaml*",
-                "url": "https://gist.githubusercontent.com/felipevicens/7e5e50f1e031764a0ded88ab7f7864d0/raw/9db1c1a69205fbdff4411001d74b498bcf3b18fd/vnfd.json"
+                "url": "http://osm-download.etsi.org/ftp/osm-doc/vnfd.json"
             },
             {
                 "fileMatch": "*nst.yaml*",
-                "url": "https://gist.githubusercontent.com/felipevicens/737c31008ffb097c8edc0914593f9905/raw/7177f3a4a65de1d4d4f19cc5d01105d9e1a29a3c/nst.json"
+                "url": "http://osm-download.etsi.org/ftp/osm-doc/nst.json"
             }
 		]
 	},
@@ -54,7 +54,7 @@
 		"tslint": "^5.20.0",
 		"vscode-test": "^1.2.2"
 	},
-	"extensionDependencies": [
+	"extensionPack": [
         "redhat.vscode-yaml"
     ]
 }
