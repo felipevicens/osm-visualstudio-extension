@@ -6,6 +6,8 @@ This is the README for your extension "opensource-mano-vs-extension".
 
 After you install this extension you will be able to get linting of vnf, ns and nst descriptors for OSM. Also the extension is able to provide descriptions of fields and autocompletion.
 
+The extension is activated when the filename follows the pattern `[*vnfd.yaml*,nsd.yaml*,*nst.yaml*]`
+
 ### Autocompletion Feature
 
 ![Autocompletion Feature](./images/osm-autocompletion.gif)
@@ -16,7 +18,7 @@ After you install this extension you will be able to get linting of vnf, ns and 
 
 ## Requirements
 
-This extension use the redhat-yaml vs code plugin and is installed as extension pack.
+This extension use the redhat-yaml vs code plugin and it is installed as extension pack.
 
 ## Known Issues
 
