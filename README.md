@@ -1,10 +1,10 @@
-# Opensource mano visualstudio extension
+# Opensource mano visualstudio code extension
 
 ## Features
 
 After you install this extension you will be able to get linting of vnf, ns and nst descriptors for OSM. Also the extension is able to provide descriptions of fields and autocompletion.
 
-The extension is activated when the filename follows the pattern `[*vnfd.yaml*,nsd.yaml*,*nst.yaml*]`
+The extension is activated when the filename follows the pattern `[*vnfd.yaml*,*nsd.yaml*,*nst.yaml*]`
 
 ### Autocompletion Feature
 
