@@ -25,15 +25,15 @@
 	    "yamlValidation": [
             {
                 "fileMatch": "*nsd.yaml*",
-                "url": "http://osm-download.etsi.org/ftp/osm-doc/nsd.json"
+                "url": "http://osm-download.etsi.org/ftp/osm-doc/rel8-old-im/nsd.json"
             },
             {
                 "fileMatch": "*vnfd.yaml*",
-                "url": "http://osm-download.etsi.org/ftp/osm-doc/vnfd.json"
+                "url": "http://osm-download.etsi.org/ftp/osm-doc/rel8-old-im/vnfd.json"
             },
             {
                 "fileMatch": "*nst.yaml*",
-                "url": "http://osm-download.etsi.org/ftp/osm-doc/nst.json"
+                "url": "http://osm-download.etsi.org/ftp/osm-doc/rel8-old-im/nst.json"
             }
 		]
 	},
